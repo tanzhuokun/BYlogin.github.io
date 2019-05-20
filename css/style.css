@@ -1,0 +1,190 @@
+body{
+	padding: 0;
+	margin: 0px;
+	position: relative;
+	height: 100%;
+}
+
+html{
+	background: url("https://img.infinitynewtab.com/wallpaper/1022.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.logo img{
+	width: 100%;
+    height: 60px;
+}
+
+.form-list{
+	height: 390px;
+	width: 350px;
+	background-color: white;
+	margin: 30px auto;
+	
+}
+
+.form-list>b{
+	display: block;
+	text-align: center;
+    margin: 0px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+.form-group-content{
+	margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-group-content b{
+	font-size: 14px;
+}
+
+.form-group-content input{
+	height: 30px;
+    width: 260px;
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+.form-check{
+	position: relative;
+}
+
+.form-check input{
+	height: 35px;
+	width: 125px;
+	border-radius: 6px;
+    border-width: 1px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.form-check img{
+	position: absolute;
+	left: 180px;
+    bottom: 0px;
+}
+
+.check-box label{
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.check-box{
+	text-align: center;
+    margin-top: 15px;
+}
+
+.check-box input{
+	margin-right: 10px;
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.form-other-option a{
+	margin: 0 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.btn-submit{
+	text-align: center;
+    margin-top: 20px;
+}
+
+.btn-submit input{
+	height: 30px;
+	width: 70%;
+	background-color: #3280fc;
+	border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.other{
+	margin-top: 20px;
+	padding-left: 25px;
+	position: relative;
+}
+
+.other span{
+	font-size: 14px;
+    font-weight: 600;
+}
+
+.other-img{
+	position: absolute;
+	left: 110px;
+	top: 0;
+}
+
+
+
+
+
+.search{
+	position: fixed;
+	bottom: 70px;
+	text-align: center;
+	width: 100%;
+}
+
+.search a{
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+.serch-baidu{
+	display: inline-block;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.serch-baidu input{
+	border: 0px;
+	 height: 22px;
+}
+
+.serch-baidu input:nth-child(2){
+	height: 25px;
+	background-color: #3280fc;
+	color: white;
+	position: absolute;
+	left: 169px;
+    bottom: 0px;
+}
+
+
+
+
+
+.footer{
+	color: white;
+	background-color: rgba(0,0,0,0.3);
+	height: 50px;
+	width: 100%;
+	text-align: center;/*居中*/
+	line-height: 50px;
+	position: fixed;
+	bottom: 0px;
+}
